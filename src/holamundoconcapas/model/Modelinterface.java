@@ -11,4 +11,5 @@ package holamundoconcapas.model;
  */
 public interface Modelinterface {
     
+    public String getGreeting();
 }

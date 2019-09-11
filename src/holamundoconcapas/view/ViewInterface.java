@@ -11,4 +11,5 @@ package holamundoconcapas.view;
  */
 public interface ViewInterface {
     
+    public void showGreeting(String greeting);
 }

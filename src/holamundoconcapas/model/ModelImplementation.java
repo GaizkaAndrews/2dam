@@ -9,6 +9,10 @@ package holamundoconcapas.model;
  *
  * @author 2dam
  */
-public class ModelImplementation {
+public class ModelImplementation implements Modelinterface{
     
+    public String getGreeting(){
+        return "Hola vecinito.";
+
+    }
 }

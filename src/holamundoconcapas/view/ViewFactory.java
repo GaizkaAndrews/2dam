@@ -5,10 +5,15 @@
  */
 package holamundoconcapas.view;
 
+import holamundoconcapas.model.ModelImplementation;
+
 /**
  *
  * @author 2dam
  */
 public class ViewFactory {
     
+    public ViewInterface getView(){
+        return new Viewimplementation();
+    }
 }
