@@ -5,8 +5,6 @@
  */
 package holamundoconcapas.view;
 
-import holamundoconcapas.model.ModelImplementation;
-
 /**
  *
  * @author 2dam

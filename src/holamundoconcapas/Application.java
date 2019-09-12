@@ -5,10 +5,19 @@
  */
 package holamundoconcapas;
 
+import holamundoconcapas.controller.Controller;
+import holamundoconcapas.model.ModelFactory;
+import holamundoconcapas.view.ViewFactory;
 /**
  *
  * @author 2dam
  */
 public class Application {
-    
+    public static void main(String[] args){
+        ModelFactory modelFactoria = new ModelFactory();
+        ViewFactory viewFactoria = new ViewFactory();
+        Controller control= new Controller();
+        
+        control.run(viewFactoria.getView(), modelFactoria.getModel());
+    }
 }

@@ -5,10 +5,15 @@
  */
 package holamundoconcapas.controller;
 
+import holamundoconcapas.model.Modelinterface;
+import holamundoconcapas.view.ViewInterface;
 /**
  *
  * @author 2dam
  */
 public class Controller {
     
+    public void run(ViewInterface view, Modelinterface model){
+            view.showGreeting(model.getGreeting());
+    }
 }
