@@ -10,7 +10,7 @@ import holamundoconcapas.model.ModelFactory;
 import holamundoconcapas.view.ViewFactory;
 /**
  *
- * @author 2dam
+ * @author Gaizka
  */
 public class Application {
     public static void main(String[] args){
@@ -19,5 +19,6 @@ public class Application {
         Controller control= new Controller();
         
         control.run(viewFactoria.getView(), modelFactoria.getModel());
+        //new Controller().run(ViewFactory.getView(),ModelFactory.getModel());
     }
 }

@@ -7,9 +7,12 @@ package holamundoconcapas.view;
 
 /**
  *
- * @author 2dam
+ * @author Gaizka
  */
-public interface ViewInterface {
-    
+public interface View {
+    /**
+     * Show a greeting
+     * @param greeting A string containing the greeting 
+     */
     public void showGreeting(String greeting);
 }

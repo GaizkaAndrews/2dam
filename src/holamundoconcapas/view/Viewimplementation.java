@@ -7,9 +7,9 @@ package holamundoconcapas.view;
 
 /**
  *
- * @author 2dam
+ * @author Gaizka
  */
-public class Viewimplementation implements ViewInterface{
+public class Viewimplementation implements View{
     public void showGreeting(String greeting){
         System.out.println(greeting);
     }

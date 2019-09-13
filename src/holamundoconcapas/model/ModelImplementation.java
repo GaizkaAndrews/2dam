@@ -7,9 +7,9 @@ package holamundoconcapas.model;
 
 /**
  *
- * @author 2dam
+ * @author Gaizka
  */
-public class ModelImplementation implements Modelinterface{
+public class ModelImplementation implements Model{
     public String getGreeting(){
         return "Hola mundo :).";
 

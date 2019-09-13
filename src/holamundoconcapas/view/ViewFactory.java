@@ -7,11 +7,11 @@ package holamundoconcapas.view;
 
 /**
  *
- * @author 2dam
+ * @author Gaizka
  */
 public class ViewFactory {
     
-    public ViewInterface getView(){
+    public View getView(){
         return new Viewimplementation();
     }
 }

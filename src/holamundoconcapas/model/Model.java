@@ -7,8 +7,8 @@ package holamundoconcapas.model;
 
 /**
  *
- * @author 2dam
+ * @author Gaizka
  */
-public interface Modelinterface {
+public interface Model {
     public String getGreeting();
 }
