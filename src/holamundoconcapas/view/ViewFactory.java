@@ -12,6 +12,7 @@ package holamundoconcapas.view;
 public class ViewFactory {
     
     public View getView(){
-        return new Viewimplementation();
+        return new SwingViewImplementation();
+        
     }
 }
